@@ -1,0 +1,33 @@
+https://selenium-python.readthedocs.io/page-objects.html
+
+>>> driver.title
+'(1) WhatsApp'
+#person to whom text is to be sent
+
+>>> e=driver.find_element_by_xpath("//input[@title='Search or start new chat']")
+>>> e.send_keys("kavita",Keys.RETURN)
+
+#text to be sent
+>>> t=driver.find_element_by_xpath("//div[@class='_2S1VP copyable-text selectable-text']")
+>>> t.send_keys("text",Keys.RETURN)
+
+#locate new element
+e=driver.find_element_by_xpath("//span[@class='OUeyt']")
+e.click()
+e.send_keys("hi",Keys.RETURN)
+
+#time of text
+<span class="_3EFt_">10:35 PM</span>
+#time and text
+x=d.find_elements_by_class_name("_3_7SH _3DFk6 message-in tail")
+
+div class _3YewW _31v_P _35DHA get notified for new message
+
+ <div class="U0cj3">Phone not connected
+
+errors yet to be handeled :-
+Stale element reference
+obsure element
+
+functions to add:-
+conversation channeling of two peoples

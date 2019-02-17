@@ -1,0 +1,6 @@
+To make an appointment system, where the patients can book an 
+appointment with the desired doctor from the list,
+also to maintain a queue the order in which the patients apply
+
+and in the same time to text the doctor the details of the 
+patient and the time alloted to him or her.
